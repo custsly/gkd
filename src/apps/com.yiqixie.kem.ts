@@ -12,8 +12,7 @@ export default defineGkdApp({
         {
           fastQuery: true,
           activityIds: 'com.yiqixie.kem.im.ui.messages.chat.ChatActivity',
-          matches:
-            '[vid="tv_redpacket_status_msg_redpacket_part"][text*="拼手气红包"][text!*="已抢完"]',
+          matches: '@[vid="open_icon"] + [text="拼手气红包"]',
         },
         {
           fastQuery: true,
