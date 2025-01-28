@@ -4,12 +4,12 @@ import categories from './categories';
 import globalGroups from './globalGroups';
 
 export default defineGkdSubscription({
-  id: 233,
-  name: 'Subscription',
+  id: 19950122,
+  name: 'custsly的个人配置',
   version: 0,
-  author: 'author',
+  author: 'custsly',
   checkUpdateUrl: './gkd.version.json5',
-  supportUri: 'https://github.com/gkd-kit/subscription-template',
+  supportUri: 'https://github.com/custsly/gkd/issues',
   categories,
   globalGroups,
   apps: await batchImportApps(`${import.meta.dirname}/apps`),
