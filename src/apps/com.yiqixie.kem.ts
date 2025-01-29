@@ -10,7 +10,7 @@ export default defineGkdApp({
       desc: '打开红包',
       rules: [
         {
-          fastQuery: false,
+          fastQuery: true,
           activityIds: 'com.yiqixie.kem.im.ui.messages.chat.ChatActivity',
           matches:
             '[vid="open_icon"] + [vid="tv_redpacket_status_msg_redpacket_part" && text="拼手气红包"]',
